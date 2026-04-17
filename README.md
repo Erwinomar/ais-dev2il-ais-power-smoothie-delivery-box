@@ -1773,7 +1773,7 @@ services:                    # Define your containers
   service-name:              # Choose a meaningful name
     image: image-name:tag    # Use a pre-built image
     # OR
-    build: ./path            # Build from a Dockerfile
+    build: ./path            # Build from a Dockerfile_Helloworld
     
     command: some command    # Override default command
     working_dir: /path       # Set working directory
